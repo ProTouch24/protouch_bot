@@ -15,7 +15,7 @@ bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
 # Define buttons with emojis
-bt1 = KeyboardButton(text="🏢 Biz haqimizda")
+bt1 = KeyboardButton(text="🏢 О нас")
 bt2 = KeyboardButton(text="💬 Обратная связь")
 bt3 = KeyboardButton(text="📋 Вакансии")
 bt4 = KeyboardButton(text="📞 Контакты")
