@@ -1,0 +1,4 @@
+aiogram==3.0.0b7
+pydantic==1.10.9
+python-dotenv==0.21.0
+uvloop==0.17.0

@@ -1,11 +1,14 @@
+import os
 import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import logging
+from dotenv import load_dotenv
 
-API_TOKEN = '7707489097:AAGI6K--jLK7tAnZ-QN_0hvfPD7C95M7J_c'  # Your token
-CHAT_ID = '1072959273'  # Your chat ID
+load_dotenv()
+API_TOKEN = os.getenv('API_TOKEN')
+CHAT_ID = os.getenv('CHAT_ID')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
