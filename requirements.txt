@@ -1,4 +1,6 @@
-aiogram==3.0.0b7
-pydantic==1.10.9
+aiogram==3.13.1
+pydantic>=2.4.1
 python-dotenv==0.21.0
 uvloop==0.17.0
+fastapi==0.95.0
+uvicorn==0.22.0 

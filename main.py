@@ -1,10 +1,11 @@
 import os
 import asyncio
-from aiogram import Bot, Dispatcher, types
+from aiogram import Bot
 from aiogram.filters import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import logging
 from dotenv import load_dotenv
+from aiogram import Dispatcher
 
 load_dotenv()
 API_TOKEN = os.getenv('API_TOKEN')
